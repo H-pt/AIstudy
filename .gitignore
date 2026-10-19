@@ -1,0 +1,41 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== 数据和模型（大文件，绝不能提交）=====
+data/
+datasets/
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+
+# ===== 训练日志 =====
+*.log
+runs/
+wandb/
+outputs/
+
+# ===== 编辑器 =====
+.vscode/
+.idea/
+
+# ===== 系统 =====
+Thumbs.db
+.DS_Store
+
+# ===== 密钥（绝对不能提交）=====
+.env
+*.key
+*.pem
