@@ -1,0 +1,7 @@
+git init                    把当前目录变成仓库
+git status                  看当前状态 ← 最常用
+git add 文件                放进暂存区
+git add .                   全部放进暂存区
+git commit -m "说明"        存档
+git log --oneline           看历史（简洁）
+git diff                    看改了什么

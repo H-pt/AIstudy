@@ -1,0 +1,14 @@
+pwd                    我在哪
+ls -l                    长格式列出
+cd ..                   回上一级
+mkdir -p a/b/c         建三层嵌套目录
+cp a b                 复制（源还在）
+mv a b                 改名/搬家（源没了）
+rm a                   删除（不可恢复！）
+echo "x" > f           写入（覆盖！）
+echo "x" >> f         追加
+cat f                  看全部
+head -5 f              看前5行
+tail -5 f              看后5行
+grep "x" f             搜含x的行
+cmd1 | cmd2            管道
