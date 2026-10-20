@@ -40,7 +40,7 @@ ssh -T git@github.com  ：测试连接是否成功
 
 git remote add ： 给Git 的"通讯录"里存一条：给某个远程仓库地址起个外号。 
  例子：git remote add origin git@github.com:H-pt/AIstudy.git
- git remote，打开远程仓库
+ git remote，列出配置过的远程仓库的名字
  add新建联系人
  origin：外号
  git@github.com:H-pt/AIstudy.git 给该仓库起的外号 
@@ -48,10 +48,10 @@ git remote add ： 给Git 的"通讯录"里存一条：给某个远程仓库地�
 这样可以省去每次都写仓库全称，只写外号即可
 
 git push： 上传远程仓库
-git branch -M xxx：强制改名本地仓库为xxx
+git branch -M xxx：强制改名本地分支名为xxx
 
 
 3.私钥和公钥： 
 有私钥可以得出公钥，有公钥得不到私钥
-私钥（钥匙）：保存在自己本地，相当于自己电脑的标签，当push内容时会把自己电脑的私钥一并上传到github
+私钥（钥匙）：保存在自己本地，相当于自己电脑的标签
 公钥（门锁的膜具）：贴在github，当push私钥后，github会用公钥核对私钥，对了就会上传
